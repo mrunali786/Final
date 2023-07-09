@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>State Bank of India - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="https://pbs.twimg.com/ext_tw_video_thumb/1410294969902854150/pu/img/qqjrRSFa8k35HgL3.jpg:large">
+  <header><br><br>
+    <h1 align="center">State Bank of India</h1>
+    
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://crcf.sbi.co.in/ccf/">HOME</a>
+      <a class="navbar-brand" href="https://crcf.sbi.co.in/ccf/Home/ComplaintStatus">REQUEST STATUS</a>
+      <a class="navbar-brand" href="https://crcf.sbi.co.in/ccf/Home/FileUploadCaseSearch">DOCUMENT UPLOAD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <nav>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+
+  <main>
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need assistance, please fill out the form below to get in touch with us.</p>
+      <form id="contactForm" action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br><br>
+
+        <button type="submit">Submit</button><br>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p> 2023 State Bank of India. All rights reserved.</p>
+  </footer>
+</body>
+</html>
